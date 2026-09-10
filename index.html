@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Importância da Semântica HTML na Web Moderna</title>
+    <meta name="description" content="Explore por que usar HTML semântico é essencial para acessibilidade, SEO e manutenibilidade do código web.">
+</head>
+<body>
+    <header>
+        <h1>Blog de Desenvolvimento Web</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#artigos">Artigos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h1>A Importância da Semântica HTML na Web Moderna</h1>
+
+            <p>
+                A semântica HTML é um conceito fundamental que <strong>muitos desenvolvedores iniciantes negligenciam</strong>. No entanto, usando tags semânticas corretas, você não apenas melhora a acessibilidade de seu site, mas também contribui para um melhor posicionamento nos mecanismos de busca.
+            </p>
+
+            <p>
+                Neste artigo, vamos explorar <em>por que semântica importa</em> e como implementá-la de forma eficaz em seus projetos.
+            </p>
+
+            <figure>
+                <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800" alt="Tela de computador mostrando código HTML semântico bem estruturado">
+                <figcaption>A estrutura semântica adequada torna o código mais legível e acessível.</figcaption>
+            </figure>
+
+            <h2>O Que É Semântica HTML?</h2>
+
+            <p>
+                Semântica em HTML refere-se ao significado do conteúdo marcado. Ao invés de usar divs genéricos para tudo, você utiliza tags específicas que comunicam o propósito do conteúdo, tanto para navegadores quanto para leitores de tela.
+            </p>
+
+            <p>
+                Por exemplo, em vez de escrever:
+            </p>
+
+            <pre><code>&lt;div&gt;
+    &lt;div&gt;Meu Título&lt;/div&gt;
+    &lt;div&gt;Conteúdo do artigo aqui...&lt;/div&gt;
+&lt;/div&gt;</code></pre>
+
+            <p>
+                Você deveria escrever:
+            </p>
+
+            <pre><code>&lt;article&gt;
+    &lt;h1&gt;Meu Título&lt;/h1&gt;
+    &lt;p&gt;Conteúdo do artigo aqui...&lt;/p&gt;
+&lt;/article&gt;</code></pre>
+
+            <h2>Benefícios da Semântica HTML</h2>
+
+            <h3>Acessibilidade</h3>
+
+            <p>
+                Usuários que dependem de leitores de tela precisam que o conteúdo esteja marcado semanticamente. Quando você usa <code>&lt;header&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;main&gt;</code> e <code>&lt;footer&gt;</code>, esses dispositivos assistivos conseguem navegar melhor pelo site.
+            </p>
+
+            <h3>Otimização para Motores de Busca (SEO)</h3>
+
+            <p>
+                Os mecanismos de busca como Google, Bing e DuckDuckGo utilizam a estrutura semântica para entender melhor o seu conteúdo. Isso significa que um site semanticamente correto terá <strong>maior chance de aparecer nos resultados de busca</strong>.
+            </p>
+
+            <h3>Manutenibilidade do Código</h3>
+
+            <p>
+                Quando você volta ao seu código meses depois, ou quando um colega precisa trabalhar nele, o código semântico é muito mais fácil de entender. Está claro qual é o header, qual é o conteúdo principal, e qual é o footer.
+            </p>
+
+            <h2>Principais Tags Semânticas</h2>
+
+            <p>
+                Aqui estão algumas das tags semânticas mais importantes que você deve usar:
+            </p>
+
+            <ul>
+                <li><code>&lt;header&gt;</code> - Define o cabeçalho da página ou seção</li>
+                <li><code>&lt;nav&gt;</code> - Marca a navegação principal</li>
+                <li><code>&lt;main&gt;</code> - Define o conteúdo principal</li>
+                <li><code>&lt;article&gt;</code> - Representa um artigo ou post independente</li>
+                <li><code>&lt;section&gt;</code> - Agrupa conteúdo relacionado</li>
+                <li><code>&lt;aside&gt;</code> - Conteúdo auxiliar ou barra lateral</li>
+                <li><code>&lt;footer&gt;</code> - Define o rodapé da página</li>
+            </ul>
+
+            <h2>Quotes Importantes</h2>
+
+            <p>
+                Tim Berners-Lee, criador da Web, disse:
+            </p>
+
+            <blockquote>
+                <p>
+                    <cite>The Web is more a social creation than a technical one. I designed it for a social effect — to help people work together — and not as a technical toy.</cite>
+                </p>
+            </blockquote>
+
+            <p>
+                Isso nos lembra que a semântica é importante porque nossos sites precisam funcionar para <em>todos</em>, não apenas para quem consegue ver uma tela perfeita.
+            </p>
+
+            <h2>Conclusão</h2>
+
+            <p>
+                Usar HTML semântico não é apenas uma questão de seguir melhores práticas — é uma questão de <strong>respeito à acessibilidade e à performance</strong> do seu site. Comece hoje mesmo a revisar seu código e garantir que está usando as tags corretas.
+            </p>
+
+            <p>
+                Para aprender mais sobre HTML semântico, visite a <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics">documentação da MDN sobre Semântica</a> ou explore os recursos disponíveis no <a href="https://www.w3.org/">W3C</a>.
+            </p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Blog de Desenvolvimento Web. Todos os direitos reservados.</p>
+        <ul>
+            <li><a href="#privacidade">Política de Privacidade</a></li>
+            <li><a href="#termos">Termos de Serviço</a></li>
+            <li><a href="mailto:contato@blog.com">Contato</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
