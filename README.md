@@ -56,9 +56,10 @@ Este projeto demonstra como criar uma página de blog post utilizando HTML semâ
 1. Abra o arquivo `index.html` no navegador
 2. Ou acesse a versão publicada em GitHub Pages: https://maisondev.github.io/roadmap-blog-post-page/
 
-## 🔗 URL do Projeto
+## 🔗 URLs
 
-https://maisondev.github.io/roadmap-blog-post-page/
+- **GitHub Pages (Solução):** https://maisondev.github.io/roadmap-blog-post-page/
+- **Projeto Original:** https://roadmap.sh/projects/blog-post-page
 
 ## 📚 Sobre o Projeto
 
